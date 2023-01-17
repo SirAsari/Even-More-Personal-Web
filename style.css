@@ -4,6 +4,10 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -62,14 +66,14 @@ nav a {
     border-radius: 20px;
 }
 
-.section1 {
+#section1 {
     padding-left: 40px;
     padding-top: 60px;
     padding-bottom: 210px;
 }
 
 
-.section1 {
+#section1 {
     display: flex;
 }
 
@@ -96,7 +100,7 @@ nav a {
     font-weight: 600;
 }
 
-.section2 {
+#section2 {
     background-color: #27AE60;
 }
 
@@ -133,6 +137,7 @@ nav a {
 }
 
 .project-name {
+    padding-top: 20px;
     color: #191d2b;
     padding-left: 28px;
     font-size: 19px;
@@ -141,16 +146,20 @@ nav a {
 
 .dog {
     border-radius: 100px;
+    position: relative;
 }
 
 .social-media-parent-text {
+    padding: 15px 20px;
+    margin-right: 500px;
+    border:3px dotted #27AE60;
     padding-left: 16%;
     color:#FFF;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 30px;
 }
 
-.section-three {
+#section-three {
     padding-left: 33%;
 }
 
@@ -169,4 +178,13 @@ nav a {
 
 .sosmed2 {
     padding-left: 0px;
+}
+
+.bg {
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 90px;
+    position:absolute ;
+    background-color: #191d2b;
+    border-radius: 100px;
 }
